@@ -3,7 +3,7 @@
 /** 
  * main - entry point
  *
- * description: 'program that prints the size of various data types'
+ * description: 'a program that prints the size of various data types'
  *
  * Return: Always 0 (Success)
  */

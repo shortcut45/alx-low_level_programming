@@ -1,10 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there*/
 
-/* betty style doc for function main goes there */
-int main(void) /* main - Entry point */
+/* assigns a random number to n
+ * executes it
+ * prints whether the number n is 0_positive_or_negative
+ */
+
+int main(void) 
 {
 	int n;
 
@@ -24,4 +27,4 @@ int main(void) /* main - Entry point */
 	printf("%d is zero\n", n);
 	}
 	return (0);
-}	
+}

@@ -2,12 +2,13 @@
 #include <stdlib.h>
 #include <time.h>
 
-/* assigns a random number to n
+/**
+ * main - assigns a random number to n
  * executes it
  * prints whether the number n is 0_positive_or_negative
  */
 
-int main(void) 
+int main(void)
 {
 	int n;
 

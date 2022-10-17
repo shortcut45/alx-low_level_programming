@@ -6,6 +6,7 @@
  * main - assigns a random number to n
  * executes it
  * prints whether the number n is 0_positive_or_negative
+ * Return: 0 (Success)
  */
 
 int main(void)

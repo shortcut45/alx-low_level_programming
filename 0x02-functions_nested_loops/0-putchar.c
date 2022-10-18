@@ -1,4 +1,6 @@
 #include <stdio.h>
+#define _MAIN_H
+#ifndef _MAIN_H
 
 /**
  * main - prints _putchar,

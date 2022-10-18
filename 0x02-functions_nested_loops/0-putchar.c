@@ -1,6 +1,5 @@
 #include <stdio.h>
-#define _main_h_
-#ifndef _main_h_
+#include "main.h"
 
 /**
  * main - prints _putchar,

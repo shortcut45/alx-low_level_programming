@@ -8,13 +8,8 @@
 
 void _puts(char *str)
 {
-	char i = 0;
-
-	while (str[i] != '\0')
-	{
-		_putchar(str[i]);
-		i++
-	}
-
-	_putchar('\n');
+	str = "I do nor fear computers. I fear the lack of them - Isaac asimov";
+	_puts(str);
+	_puts("\n");
 }
+	

@@ -23,10 +23,4 @@ void print_rev(char *s)
 	}
 }
 
-int main(void)
-{
-	char s[] = "i do not fear computers. I fear the lack of them = Isaac Asimov";
-	print_rev(s);
-	printf("\n");
-	return 0;
-}
+

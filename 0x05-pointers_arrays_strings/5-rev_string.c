@@ -9,8 +9,13 @@
 
 void rev_string(char *s)
 {
-	int length = strlens(s);
+	printf("%s\n", s);
+	int length = strlen(s);
 	int i;
 
-	
+	for (i = length; i >= 0; i--)
+	{
+		printf("%c", s[i]);
+	}
+	printf("\n");
 }

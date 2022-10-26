@@ -20,7 +20,7 @@ void puts2(char *str)
 		i++;
 		if ( str[i] % 2 == 0)
 		{
-			printf("%d, "str);
+			printf("%d", str);
 		}	
 	}
 	printf("\n");

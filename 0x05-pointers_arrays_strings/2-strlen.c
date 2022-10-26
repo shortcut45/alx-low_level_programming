@@ -11,10 +11,8 @@
 
 int _strlen(char *s)
 {
-	char *str;
 	int len;
 
-	str = "Holberton!";
 	len = _strlen(s);
 	printf("%d\n", len);
 	return (0);

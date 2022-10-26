@@ -17,11 +17,11 @@ void puts2(char *str)
 
 	while (str[i] != '\0')
 	{
-		i++
+		i++;
 		if ( str[] % 2 == 0)
 		{
 			printf(str);
 		}	
 	}
-	printf('\n');
+	printf("\n");
 }

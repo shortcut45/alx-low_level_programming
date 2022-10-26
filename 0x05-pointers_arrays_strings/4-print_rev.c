@@ -12,11 +12,13 @@ void print_rev(char *s)
 {
 	int i;
 	int length = strlen(s);
+	char *str;
+	str = "Holberton";
 
 	while (i > length)
 	{
 		length--;
-		for (i = length; i >+ 0; i--)
+		for (i = length; i >= 0; i--)
 		{
 			printf("%c", s[i]);
 		}

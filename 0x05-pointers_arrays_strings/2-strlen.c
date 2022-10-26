@@ -5,15 +5,17 @@
 /**
  * int _strlen - returns the length of a string
  * @s: string
+ * Description - returns the length of a string
  * Return: length of string
  */
 
 int _strlen(char *s)
 {
+	char *str;
 	int len;
 
-	s = "My first strlen!";
+	s = "Holberton!";
 	len = _strlen(s);
 	printf("%d\n", len);
-	return 0;
+	return (0);
 }

@@ -18,10 +18,10 @@ void puts2(char *str)
 	while (str[i] != '\0')
 	{
 		i++;
-		if ( str[i] % 2 == 0)
+		if (str[i] % 2 == 0)
 		{
 			printf("%s", str);
-		}	
+		}
 	}
 	printf("\n");
 }

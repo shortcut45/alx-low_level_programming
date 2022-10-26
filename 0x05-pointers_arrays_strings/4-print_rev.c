@@ -12,8 +12,6 @@ void print_rev(char *s)
 {
 	int i;
 	int length = strlen(s);
-	char *str;
-	str = "Holberton";
 
 	while (i > length)
 	{

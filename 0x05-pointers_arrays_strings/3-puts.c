@@ -11,5 +11,4 @@ void _puts(char *str)
 	str = "I do nor fear computers. I fear the lack of them - Isaac asimov";
 	_puts(str);
 	_puts("\n");
-}
-	
+}	

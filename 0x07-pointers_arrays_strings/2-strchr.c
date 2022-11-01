@@ -3,7 +3,7 @@
 
 /**
  * @s: string
-	 * @c: character
+ * @c: character
  *
  * Return: a pointer to the first occurence of the character
  * c in the ctring or NULL if the character is not found

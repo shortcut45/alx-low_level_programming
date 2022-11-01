@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strspn _ gets the length of the prefix substring
+ * _strspn - gets the length of the prefix substring
  * @s: string
  * @accept: string containing the list of char to accept in match s
  * which consist only of bytes from accept
@@ -16,7 +16,7 @@ unsigned int_strspn(char *s, char *accept)
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		flag = 0;
-	
+
 		for (x = 0; accept[x] != '\0'; x++)
 		{
 			if (s[i] == accept[x])

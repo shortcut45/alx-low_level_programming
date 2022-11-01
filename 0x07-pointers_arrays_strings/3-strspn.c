@@ -7,7 +7,7 @@
  * which consist only of bytes from accept
  */
 
-unsigned int_strcpn(char *s, char *accept)
+unsigned int_strspn(char *s, char *accept)
 {
 	int i, x, y, flag;
 

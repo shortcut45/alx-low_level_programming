@@ -12,15 +12,15 @@ void print_diagsums(int *a, int size)
 {
 	int q;
 
-	unsigned int s, s1;
+	unsigned int add, add1;
 
-	s = 0;
-	s1 = 0;
+	add = 0;
+	add1 = 0;
 
 	for (q = 0; q < size; q++)
 	{
-		s += a[(size * q) + q];
-		s1 += [(size * (q + 1)) - (q + 1)];
+		add += a[(size * q) + q];
+		add1 += a[(size * (q + 1)) - (q + 1)];
 	}
-	printf("%d\n, %d\n", s, s1);
+	printf("%d\n, %d\n", add, add1);
 }

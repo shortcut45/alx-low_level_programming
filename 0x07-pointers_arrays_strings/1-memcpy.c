@@ -9,7 +9,7 @@
  * Return: poitner dest
  */
 
-char *_memcpy(char *dest, char *src, unsinged int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int i;
 

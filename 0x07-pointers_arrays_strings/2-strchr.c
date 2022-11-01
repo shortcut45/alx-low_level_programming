@@ -16,11 +16,11 @@ char *_strchr(char *s, char c)
 	while (1)
 	{
 		q = *s++;
-		if (a == c)
+		if (q == c)
 		{
 			return (s - 1);
 		}
-		if (a == 0)
+		if (q == 0)
 		{
 			return (NULL);
 		}

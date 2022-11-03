@@ -15,18 +15,13 @@ int is_palindrome(char *s)
 
 	int h = strlen(s) - 1;
 
-	while (h > i)
+	if (s[i++] != s[h--])
 	{
-		if (s[i++] != s[h--])
-		{
-			printf("%s is not a palindrome", s);
-			return (0);
-		}
-		else
-		{
-			printf("%s is a palindrome", s);
-			return (1);
-		}
+		return (0);
+	}
+	else
+	{
+		return (1);
 	}
 	return (0);
 }

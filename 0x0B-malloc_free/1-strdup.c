@@ -13,30 +13,30 @@ char *_strdup(char *str)
 	static char *dup;
 	char *len;
 
-	 if (str == NULL)
-	 {
-	 	return (NULL);
-	 }
+	if (str == NULL)
+	{
+		return (NULL);
+	}
 
-	 for (size = 0; str[size]; size++)
-	 {
-	 	dup++;
-	 }
-	 dup = (char *) malloc(sizeof(char) * size + 1);
+	for (size = 0; str[size]; size++)
+	{
+		dup++;
+	}
+	dup = (char *) malloc(sizeof(char) * size + 1);
 
-	 if (dup == NULL)
-	 {
-	 	return((char *) NULL);
-	 }
+	if (dup == NULL)
+	{
+		return((char *) NULL);
+	}
 
-	 len = dup;
-	 while (*str)
-	 {
-	 	*len = *str;
+	len = dup;
+	while (*str)
+	{
+		*len = *str;
 		len++;
 		str++;
-	 }
-	 *len = '\0';
+	}
+	*len = '\0';
 
-	 return (dup);
+	return (dup);
 }

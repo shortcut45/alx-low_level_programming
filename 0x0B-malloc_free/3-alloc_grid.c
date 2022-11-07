@@ -42,9 +42,8 @@ int **alloc_grid(int width, int height)
 				return (NULL);
 			}
 		}
+		return(grid);
 	}
-	return (grid);
-
 	else
 		return (NULL);
 }

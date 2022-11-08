@@ -1,2 +1,3 @@
 git add .
-git commit -m 'CLanguage'
+git commit -m 'while loops'
+git push 

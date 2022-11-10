@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 /**
- * malloc_checked - alloctates memory using malloc
+ * malloc_checked - allocates memory using malloc
  * @b: int size of memory
  * Return: pointer
  */
 
-void malloc_checked(unsigned int b)
+void *malloc_checked(unsigned int b)
 {
 	void *ptr;
 

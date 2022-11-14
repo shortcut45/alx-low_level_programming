@@ -14,3 +14,18 @@ struct dog
 	float age;
 	char *owner;
 };
+
+int main(void)
+{
+	struct dog dog;
+
+	dog.name = "Poppy";
+	dog.age = 3.5;
+	dog.owner = "Bob";
+
+	printf("Name of the dog: %s\n", dog.name);
+	printf("Age of the dog: %.1f\n", dog.age);
+	printf("Owner of the dog: %s\n", dog.owner);
+
+	return (0);
+}

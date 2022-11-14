@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include "dog.h"
+#include <stdlib.h>
 
 /**
- * init_og - initializes a variable of tyhpe struct dog
+ * init_dog - initializes a variable of tyhpe struct dog
  * @d: dog's name
  * @age: dog's age
  * @owner: dog'd owner
